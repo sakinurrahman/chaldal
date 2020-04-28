@@ -275,6 +275,7 @@
 
     .carousel {
     position: relative;
+<<<<<<< HEAD
     }
 
     .carousel-indicators {
@@ -303,3 +304,178 @@
    
 
 
+=======
+    padding: 0 10px;
+    width: 712px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+nav.nav  .search-box input {
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: .2rem;
+    border: none;
+    font-size: .9rem;
+    line-height: 0;
+}
+
+nav.nav  .search-box .search-btn {
+    background-color: inherit;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    --webkit-transform: translateY(-50%);
+    right: 1.3rem;
+    font-size: 1.4rem;
+    border: none;
+    color: rgb(190, 187, 187);
+}
+
+.help-desk {
+    float: left;
+    width: 130px;
+    line-height: 56px;
+    font-size: .9rem;
+    padding: 0 5px;
+    transition: .4s;
+    border-left: 1px solid rgb(165, 161, 161);
+    border-right: 1px solid rgba(165, 161, 161, 0.753);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.help-desk span {
+    background-color: rgba(124, 120, 120, 0.5);
+    padding: .1rem .5rem;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.help-desk:hover {
+    background-color:#f0bf42;
+}
+
+.chang-language {
+    width: 130px;
+    display: block;
+    cursor: pointer;
+}
+
+.chang-language h3 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: normal;
+	margin: auto;
+}
+
+.sign-part {
+    float: left;
+    width: 150px;
+}
+
+.sign-btn {
+    width: 100%;
+    height: 56px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #f05e63;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sign-btn:hover {
+    background-color: #e0353b;
+}
+
+
+.slideNav {
+    background-color: var(--btn-color);
+    color: white;
+    width: 250px;
+    height: 100vh;
+    display: inline-block;
+    position: fixed;
+    right: -250px;
+}
+
+/*** Navigation is ends *****/
+
+
+/*** Hero section is staart *****/
+
+section.hero{
+    background: url(../img/landingBanner.jpg);
+    background-repeat: no-repeat;
+    height: 330px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-top: 56px;
+}
+
+.hero .hero-title {
+    margin-top: 93px;
+}
+
+.hero .hero-title .search-box {
+    margin: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.hero .hero-title .search-box input {
+    width: 100%;
+    display: block;
+    padding: 15px 10px;
+    border-radius: .6rem !important;
+    border: none;
+    font-size: .9rem;
+    line-height: 0;
+}
+
+.hero .hero-title .search-box .search-btn {
+    background-color: inherit;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    --webkit-transform: translateY(-50%);
+    right: 1.3rem;
+    font-size: 1.4rem;
+    border: none;
+    color: rgb(190, 187, 187);
+    cursor: pointer;
+}
+
+/*** HEro section is ends *****/
+
+/**** Advertise is start *******/
+
+.advertise .advertise-left {
+    padding: 0 1px 0 0 ;
+}
+
+.advertise .advertise-right {
+    padding: 0 0px 0 1px ;
+}
+
+/**** Advertise is ends *******/
+
+/*** **********  Categories section here********** ***/
+
+section.categories .categories-item {
+    background-color: #2ba34f;
+    border: 1px solid grey;
+    margin: 5px;
+}
+>>>>>>> fe193cc5df7d5ea7a1f7916566bcd62b58ad697f
