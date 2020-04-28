@@ -474,8 +474,6 @@ section.hero{
 /*** **********  Categories section here********** ***/
 
 section.categories .categories-item {
-    background-color: #2ba34f;
-    border: 1px solid grey;
-    margin: 5px;
+        border: 1px solid rgb(209, 207, 207);
 }
 >>>>>>> fe193cc5df7d5ea7a1f7916566bcd62b58ad697f
