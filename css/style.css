@@ -181,7 +181,7 @@ nav.nav  .search-box .search-btn {
 /*** Hero section is staart *****/
 
 section.hero{
-    background-image: url(/img/landingBanner.jpg);
+    background-image: url(../img/landingBanner.jpg);
     background-repeat: no-repeat;
     height: 330px;
     overflow: hidden;
